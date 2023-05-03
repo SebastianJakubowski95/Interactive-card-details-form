@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Interactive-card-details-form/static/css/main.f711791c.css",
+    "main.css": "/Interactive-card-details-form/static/css/main.4e481ba2.css",
     "main.js": "/Interactive-card-details-form/static/js/main.690d11ab.js",
     "static/js/787.25ec2648.chunk.js": "/Interactive-card-details-form/static/js/787.25ec2648.chunk.js",
     "static/media/bg-main-desktop.png": "/Interactive-card-details-form/static/media/bg-main-desktop.806e7aa7b4dbc1d78bc3.png",
@@ -12,12 +12,12 @@
     "static/media/icon-incorrent.svg": "/Interactive-card-details-form/static/media/icon-incorrent.6bb250776b89bd448dd9dcda4749ac17.svg",
     "static/media/icon-complete.svg": "/Interactive-card-details-form/static/media/icon-complete.8fd757c0c5c44b1d597ca411400e046d.svg",
     "static/media/card-logo.svg": "/Interactive-card-details-form/static/media/card-logo.8ca9036515954c3f8191559dce9c7bdf.svg",
-    "main.f711791c.css.map": "/Interactive-card-details-form/static/css/main.f711791c.css.map",
+    "main.4e481ba2.css.map": "/Interactive-card-details-form/static/css/main.4e481ba2.css.map",
     "main.690d11ab.js.map": "/Interactive-card-details-form/static/js/main.690d11ab.js.map",
     "787.25ec2648.chunk.js.map": "/Interactive-card-details-form/static/js/787.25ec2648.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f711791c.css",
+    "static/css/main.4e481ba2.css",
     "static/js/main.690d11ab.js"
   ]
 }
