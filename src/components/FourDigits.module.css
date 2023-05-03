@@ -3,3 +3,9 @@ p.four-digits {
   font-size: 1.625rem;
   letter-spacing: 0.15em;
 }
+
+@media screen and (max-width: 768px) {
+  p.four-digits {
+    font-size: 1.25rem;
+  }
+}
