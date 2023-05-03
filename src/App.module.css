@@ -1,0 +1,8 @@
+.screen-large {
+  display: flex;
+}
+
+.screen-small {
+  display: flex;
+  flex-direction: column;
+}

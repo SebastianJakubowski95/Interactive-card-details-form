@@ -1,0 +1,45 @@
+* {
+}
+:root {
+  /* COLORS */
+  --violet-gradient: linear-gradient(180deg, #6448fe 0%, #600594 100%);
+  --red: #ff5252;
+  --white: #ffffff;
+  --grey-light: #dedddf;
+  --grey-dark: #8e8593;
+  --violet-dark: #21092f;
+  --green: #3df04f;
+  /* FONTS */
+  --form-input-body-size: 1rem;
+  --form-labels-size: 0.875rem;
+  --form-error-size: 0.75rem;
+  --succesful-heading: 1.5rem;
+  --succesful-body-text: 1.125rem;
+}
+body {
+  overflow-x: hidden;
+  margin: 0;
+  box-sizing: border-box;
+  background: var(--white);
+  font-family: "Space Grotesk", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+.row {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}

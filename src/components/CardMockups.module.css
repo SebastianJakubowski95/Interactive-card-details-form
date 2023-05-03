@@ -1,0 +1,112 @@
+.bg {
+  background-image: url("../assets/bg-main-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  width: 30vw;
+  display: grid;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logo {
+  position: inherit;
+  z-index: 10;
+}
+.card-front {
+  width: 447px;
+  height: 245px;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+  top: 7rem;
+  right: -5vw;
+  z-index: 5;
+}
+.frontCard {
+  position: absolute;
+}
+
+.card-front > div {
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2rem;
+  position: inherit;
+  z-index: 10;
+}
+.card-front > div > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+.digits {
+  display: flex;
+  gap: 16px;
+}
+
+.second-row {
+  display: flex;
+  justify-content: space-between;
+}
+.second-row p {
+  letter-spacing: 0.2em;
+}
+p {
+  color: var(--white);
+}
+
+.card-back {
+  bottom: 2rem;
+  right: -1vw;
+  position: relative;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+}
+.card-back p {
+  position: absolute;
+  top: 6.8rem;
+  right: 3.25rem;
+  font-size: 1.25rem;
+}
+
+@media screen and (max-width: 1111px) {
+  .bg {
+    background-image: url("../assets/bg-main-mobile.png");
+    width: 100vw;
+    height: 24rem;
+    justify-content: center;
+    margin-bottom: 13rem;
+  }
+  .card-front {
+    top: 4rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .card-front,
+  .card-back {
+    scale: 0.5;
+  }
+  .card-back {
+    right: 3vw;
+    bottom: 10rem;
+  }
+  .card-front {
+    right: -3vw;
+    top: -1rem;
+  }
+  .bg {
+    margin-bottom: 5rem;
+    height: 20rem;
+  }
+}

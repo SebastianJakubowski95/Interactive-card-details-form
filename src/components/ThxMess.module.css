@@ -1,0 +1,26 @@
+.content {
+  width: 100%;
+  margin: auto auto;
+  position: relative;
+  bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 32px;
+  gap: 32px;
+}
+
+.content > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    padding: 0;
+  }
+}
