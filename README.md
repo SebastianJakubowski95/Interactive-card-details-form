@@ -1,6 +1,7 @@
 # Frontend Mentor - Interactive card details form
 
-![Design preview for the Interactive card details form coding challenge] (./desktop-preview.jpg)
+![Screenshot](./desktop-preview.jpg)
+
 This project was made depending on idea from https://www.frontendmentor.io/challenges/interactive-card-details-form-XpS8cKZDWw
 
 Project is a React app. Despite React built-in features, it uses redux for big web applications scale.
